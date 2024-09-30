@@ -5,13 +5,13 @@ public class PersegiPanjang {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Masukan Panjang : ");
-        double p = scanner.nextDouble();
+        double Panjang = scanner.nextDouble();
         System.out.print("Masukan Lebar : ");
-        double l = scanner.nextDouble();
+        double Lebar = scanner.nextDouble();
 
-        double ls = p * l ;
+        double luas = Panjang * Lebar ;
 
-        System.out.print("Luas Persegi Panjang : " + ls);
+        System.out.print("Luas Persegi Panjang : " + luas);
 
         scanner.close();
     }
