@@ -6,6 +6,7 @@ public class PersegiPanjang {
 
         System.out.print("Masukan Panjang : ");
         double Panjang = scanner.nextDouble();
+        
         System.out.print("Masukan Lebar : ");
         double Lebar = scanner.nextDouble();
 

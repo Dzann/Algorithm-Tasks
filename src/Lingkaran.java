@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Lingkarant{
+public class Lingkaran{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Masukan Jari-jari : ");
-
         double jariJari = scanner.nextDouble();
 
         boolean KelipatanTujuh = (jariJari % 7 == 0);
