@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Warung {
     public static void main(String[] args) {
@@ -15,9 +15,13 @@ public class Warung {
         double totalHarga = jumlahTelur * hargaPerKg;
         int kembalian = uangDibayar - (int) totalHarga;
 
-        System.out.println("Jumlah Telur: " + jumlahTelur + " kg");
-        System.out.println("Total Harga: Rp " + (int) totalHarga);
-        System.out.println("Uang Kembalian: Rp " + kembalian);
+        if (kembalian < 0){
+            System.out.println("Uang Anda Kurang!!!");
+        } else {
+            System.out.println("Jumlah Telur: " + jumlahTelur + " kg");
+            System.out.println("Total Harga: Rp " + (int) totalHarga);
+            System.out.println("Uang Kembalian: Rp " + kembalian);
+        }
 
         scanner.close();
     }
