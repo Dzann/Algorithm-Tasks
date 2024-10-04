@@ -7,11 +7,10 @@
 ## Minggu Kedua
 1. Membuat Java
 2. Menghitung Umur
-3. Telur
-4. Suhu
-5. Keliling Lingkaran
-6. Luas Persegi
-7. Volume Kubus
-8. Uang Kembalian
+3. Telur dan Uang Kembalian
+5. Suhu
+6. Keliling Lingkaran
+7. Luas Persegi
+8. Volume Kubus
 
 ## Latihan
