@@ -1,18 +1,17 @@
-## Getting Started
+# Tugas Algoritma Struktur Data
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Minggu Pertama 
+1. Membuat Flowchart
+2. Installasi Java Dan IDE
 
-## Folder Structure
+## Minggu Kedua
+1. Membuat Java
+2. Menghitung Umur
+3. Telur
+4. Suhu
+5. Keliling Lingkaran
+6. Luas Persegi
+7. Volume Kubus
+8. Uang Kembalian
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Latihan
