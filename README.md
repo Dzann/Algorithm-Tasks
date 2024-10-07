@@ -18,4 +18,5 @@
 
 ## Latihan
 1. Total Bayar
+3. Kembalian telur dengan diskon
 2. Hari libur
