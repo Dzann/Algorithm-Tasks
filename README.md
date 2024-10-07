@@ -13,4 +13,9 @@
 7. Luas Persegi
 8. Volume Kubus
 
+## Minggu Ketiga
+1. 
+
 ## Latihan
+1. Total Bayar
+2. Hari libur
