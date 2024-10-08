@@ -1,3 +1,4 @@
+package Latihan;
 import java.util.Scanner;
 
 public class TotalBayar {

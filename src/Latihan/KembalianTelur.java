@@ -1,3 +1,4 @@
+package Latihan;
 import java.util.*;
 // menghitung uang kembalian dari pembelian kg telur jika beli lebih dari 3kg maka dapat diskon 10%, harga per kg 28k
 public class KembalianTelur {

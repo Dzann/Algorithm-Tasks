@@ -1,3 +1,4 @@
+package Pertemuan_2;
 import java.util.*;
 
 public class Warung {
