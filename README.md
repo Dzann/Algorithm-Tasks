@@ -14,7 +14,11 @@
 8. Volume Kubus
 
 ## Minggu Ketiga
-1. 
+1. Menentukan Ganil Genap
+2. Lulus Atau tidak
+3. Pecahan Uang
+4. Harga Jeruk
+5. Grade
 
 ## Latihan
 1. Total Bayar
