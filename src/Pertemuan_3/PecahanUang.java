@@ -54,6 +54,12 @@ public class PecahanUang {
         if (jumlahUang >= 500) {
             limaRatus = jumlahUang / 500;
             jumlahUang = jumlahUang % 500;
+            System.out.println(limaRatus + " Keping 500 Rupiah");
+        }
+
+        if (jumlahUang >= 200) {
+            limaRatus = jumlahUang / 200;
+            jumlahUang = jumlahUang % 200;
             System.out.println(limaRatus + " Keping 200 Rupiah");
         }
 
