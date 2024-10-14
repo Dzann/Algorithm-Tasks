@@ -19,7 +19,7 @@ public class LatihanLoop {
         // kurang-=2;
         // }
 
-        //0 0 1 1 2 3 5 8 13 21 34 55 89
+        // 0 0 1 1 2 3 5 8 13 21 34 55 89
         int a = 0;
         int b = 0;
         int c = 0;
