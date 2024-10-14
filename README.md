@@ -2,9 +2,9 @@
 
 ## Minggu Pertama 
 1. Membuat Flowchart
-2. Installasi Java Dan IDE
+2. Instalasi Java Dan IDE
 
-## Minggu Kedua
+## Minggu Ke-Dua
 1. Membuat Java
 2. Menghitung Umur
 3. Telur dan Uang Kembalian
@@ -13,12 +13,15 @@
 7. Luas Persegi
 8. Volume Kubus
 
-## Minggu Ketiga
+## Minggu Ke-Tiga
 1. Menentukan Ganil Genap
 2. Lulus Atau tidak
 3. Pecahan Uang
 4. Harga Jeruk
 5. Grade
+
+## Minggu Ke-Empat
+1. 
 
 ## Latihan
 1. Total Bayar
