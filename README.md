@@ -21,7 +21,11 @@
 5. Grade
 
 ## Minggu Ke-Empat
-1. 
+1. Looping
+
+## Minggu Ke-Lima
+1. Array
+2. ArrayList
 
 ## Latihan
 1. Total Bayar
