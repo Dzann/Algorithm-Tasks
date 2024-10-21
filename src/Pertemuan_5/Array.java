@@ -9,6 +9,7 @@ public class Array {
         String mahasiswa[] = new String[10];
         String keterangan[] = new String[10];
         int nilai[] = new int[10];
+        int sum = 0;
         int i = 0;
         do {
             System.out.print(" Masukan Nama Mahasiswa: ");
@@ -23,6 +24,7 @@ public class Array {
             sc.nextLine();
             System.out.print(" Tambah Mahasiswa Lagi? (y/n): ");
             inputLagi = sc.nextLine().toLowerCase();
+            sum += nilai[i];
             i++;
         } while (i < mahasiswa.length && inputLagi.equals("y"));
             System.out.println("Daftar Mahasiswa");
@@ -34,11 +36,11 @@ public class Array {
                 
                 System.out.println((j+1)+ "\t" + mahasiswa[j] + "\t" + nilai[j] + "\t" + keterangan[j]);
             }
-            int total = 0;
-            for (int a = 0; a < nilai.length; a++) {
-                total += nilai[i];
-            }
-            
+
+            double rata_rata = sum/i;
+
+            System.out.println("Nilai Rata Rata Mahasiswa adalah: " + rata_rata);
+
         sc.close();
     }
 }
