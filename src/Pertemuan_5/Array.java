@@ -27,7 +27,8 @@ public class Array {
             sum += nilai[i];
             i++;
         } while (i < mahasiswa.length && inputLagi.equals("y"));
-            System.out.println("Daftar Mahasiswa");
+            System.out.println("Daftar Nilai Mahasiswa");
+            System.out.println("=".repeat(30));
             System.out.println("No\tNama\tNilai\tKeterangan");
             for (int j = 0; j < i; j++) {
                 if (mahasiswa[j] == null) {
@@ -36,9 +37,9 @@ public class Array {
                 
                 System.out.println((j+1)+ "\t" + mahasiswa[j] + "\t" + nilai[j] + "\t" + keterangan[j]);
             }
-
+            System.out.println("=".repeat(30));
             double rata_rata = sum/i;
-
+            System.out.println("jumlah Nilai: " + sum);
             System.out.println("Nilai Rata Rata Mahasiswa adalah: " + rata_rata);
 
         sc.close();
