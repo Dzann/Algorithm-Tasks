@@ -13,9 +13,6 @@ class Buah {
     }
 
     int getHarga(int jumlah) {
-        if (this.nama.equalsIgnoreCase("Mangga") && jumlah == 1) {
-            return 10000; // Harga spesial untuk mangga
-        }
         return this.harga;
     }
 }
@@ -39,19 +36,20 @@ class ItemBelanja {
 }
 
 public class TugasArrayList {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        // Data buah yang tersedia
-        Buah[] daftarBuah = {
-            new Buah("Apel", 35000),
-            new Buah("Jeruk", 50000),
-            new Buah("Mangga", 25000),
-            new Buah("Duku", 15000),
-            new Buah("Semangka", 20000)
-        };
+        // Membuat ArrayList untuk daftar buah yang tersedia
+        ArrayList<Buah> daftarBuah = new ArrayList<>();
 
-        // Menyimpan barang belanjaan
+        // Menambahkan buah ke dalam daftar menggunakan ArrayList
+        daftarBuah.add(new Buah("Apel", 35000));
+        daftarBuah.add(new Buah("Jeruk", 50000));
+        daftarBuah.add(new Buah("Mangga", 25000));
+        daftarBuah.add(new Buah("Duku", 15000));
+        daftarBuah.add(new Buah("Semangka", 20000));
+
+        // Menyimpan barang belanjaan dalam ArrayList
         ArrayList<ItemBelanja> keranjang = new ArrayList<>();
         int pilihan;
 
@@ -66,9 +64,10 @@ public class TugasArrayList {
             if (pilihan == 1) {
                 String lanjut;
                 do {
-                    System.out.println("Pilih Buah (0-4):");
-                    for (int i = 0; i < daftarBuah.length; i++) {
-                        System.out.printf("%-3d %-10s Rp%-10d\n", i, daftarBuah[i].nama, daftarBuah[i].harga);
+                    // Menampilkan daftar buah menggunakan ArrayList
+                    System.out.println("Pilih Buah (1-5):");
+                    for (int i = 0; i < daftarBuah.size(); i++) {
+                        System.out.printf("%-3d %-10s Rp%-10d\n", i + 1, daftarBuah.get(i).nama, daftarBuah.get(i).harga);
                     }
 
                     System.out.print("Masukkan pilihan buah: ");
@@ -76,7 +75,8 @@ public class TugasArrayList {
                     System.out.print("Masukkan jumlah: ");
                     int jumlah = scanner.nextInt();
 
-                    keranjang.add(new ItemBelanja(daftarBuah[pilihanBuah], jumlah)); // Tambahkan item ke keranjang
+                    // Tambahkan item ke keranjang
+                    keranjang.add(new ItemBelanja(daftarBuah.get(pilihanBuah - 1), jumlah));
 
                     System.out.print("Input lagi? (y/n): ");
                     lanjut = scanner.next();
