@@ -38,17 +38,14 @@ public class TugasArrayList {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        // Membuat ArrayList untuk daftar buah yang tersedia
         ArrayList<Buah> daftarBuah = new ArrayList<>();
 
-        // Menambahkan buah ke dalam daftar menggunakan ArrayList
         daftarBuah.add(new Buah("Apel", 35000));
         daftarBuah.add(new Buah("Jeruk", 50000));
         daftarBuah.add(new Buah("Mangga", 25000));
         daftarBuah.add(new Buah("Duku", 15000));
         daftarBuah.add(new Buah("Semangka", 20000));
 
-        // Menyimpan barang belanjaan dalam ArrayList
         ArrayList<ItemBelanja> keranjang = new ArrayList<>();
         int pilihan;
 
@@ -74,7 +71,6 @@ public class TugasArrayList {
                     System.out.print("Masukkan jumlah: ");
                     int jumlah = scanner.nextInt();
 
-                    // Tambahkan item ke keranjang
                     keranjang.add(new ItemBelanja(daftarBuah.get(pilihanBuah - 1), jumlah));
 
                     System.out.print("Input lagi? (y/n): ");
