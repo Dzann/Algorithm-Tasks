@@ -1,7 +1,6 @@
 package Pertemuan_5;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 class Buah {
     String nama;
@@ -88,7 +87,7 @@ public class TugasArrayList {
                 } else {
                     System.out.println("Daftar Belanja Anda:");
                     System.out.println("=".repeat(50));
-                    System.out.printf("%-3s %-10s %-7s %-10s %-10s\n", "No", "Nama", "Jumlah", "Harga", "Subtotal");
+                    System.out.printf("%-3s %-10s %-7s %-10s %-10s\n", "No", "Nama Buah", "Jumlah", "Harga", "Subtotal");
 
                     int totalHarga = 0;
                     for (int i = 0; i < keranjang.size(); i++) {
