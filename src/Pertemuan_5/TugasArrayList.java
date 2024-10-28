@@ -63,7 +63,7 @@ public class TugasArrayList {
                     // Menampilkan daftar buah menggunakan ArrayList
                     System.out.println("Pilih Buah (1-5):");
                     for (int i = 0; i < daftarBuah.size(); i++) {
-                        System.out.printf("%-3d %-10s Rp%-10d\n", i + 1, daftarBuah.get(i).nama, daftarBuah.get(i).harga);
+                        System.out.printf("%-3d %-10s Rp.%-10d\n", i + 1, daftarBuah.get(i).nama, daftarBuah.get(i).harga);
                     }
 
                     System.out.print("Masukkan pilihan buah: ");
@@ -83,14 +83,14 @@ public class TugasArrayList {
                 } else {
                     System.out.println("Daftar Belanja Anda:");
                     System.out.println("=".repeat(50));
-                    System.out.printf("%-3s %-10s %-7s %-10s %-10s\n", "No", "Nama Buah", "Jumlah", "Harga", "Subtotal");
+                    System.out.printf("%-3s %-10s %-7s %-10s %-13s\n", "No", "Nama Buah", "Jumlah", "Harga", "Subtotal");
 
                     int totalHarga = 0;
                     for (int i = 0; i < keranjang.size(); i++) {
                         ItemBelanja item = keranjang.get(i);
                         int hargaPerItem = item.getHargaPerItem();
                         int subtotal = item.getSubtotal();
-                        System.out.printf("%-3d %-10s %-7d Rp.%-7d Rp.%-10d\n", (i + 1), item.buah.nama, item.jumlah, hargaPerItem, subtotal);
+                        System.out.printf("%-3d %-10s %-7d Rp.%-7d Rp.%-13d\n", (i + 1), item.buah.nama, item.jumlah, hargaPerItem, subtotal);
                         totalHarga += subtotal;
                     }
 
