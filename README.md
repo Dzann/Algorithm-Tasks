@@ -27,6 +27,12 @@
 1. Array
 2. ArrayList
 
+## Minggu Ke-Enam
+1. Membuat Presentasi tentang ArrayList
+
+## Minggu Ke-Tujuh
+1. Menyelesaikan Studi Kasus
+
 ## Latihan
 1. Total Bayar
 3. Kembalian telur dengan diskon
